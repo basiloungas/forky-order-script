@@ -13,11 +13,13 @@
   "dependencies": {
     "axios": "^0.16.2",
     "babel-cli": "~6.24.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.5.2",
     "bluebird": "^3.5.0",
     "make-error-cause": "^1.2.2"
   },
   "devDependencies": {
+    "babel-eslint": "^7.2.3",
     "eslint": "~3.19.0",
     "eslint-config-airbnb-base": "~11.2.0",
     "eslint-plugin-import": "~2.6.1",
