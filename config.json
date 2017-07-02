@@ -7,6 +7,9 @@
       "postOrderEndpoint": "/api/v2/orders.json"
     }
   },
+  "errorHandlers": {
+    "consoleLogger" : true
+  },
   "timeslotId": 2,
   "addressId": "2488",
   "constraints": {
