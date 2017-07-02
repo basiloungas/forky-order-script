@@ -1,0 +1,23 @@
+{
+  "name": "forky-order-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/.bin/babel-node index.js",
+    "start-dev": "nodemon index.js --exec babel-node"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "~6.24.1",
+    "babel-preset-env": "^1.5.2"
+  },
+  "devDependencies": {
+    "eslint": "~3.19.0",
+    "eslint-config-airbnb-base": "~11.2.0",
+    "eslint-plugin-import": "~2.6.1",
+    "nodemon": "^1.11.0"
+  }
+}
