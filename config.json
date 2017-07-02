@@ -1,0 +1,27 @@
+{
+  "providers": {
+    "forky": {
+      "baseUrl": "http://devel.forky.gr",
+      "token": "NjNlOWRhMDkyMTI1MTcyZTBlOThhMWRiMzIyM2RhN2JmZjI2N2EyMDQwYTg5OTI5OTY1Zjg1OGMyYWJiMzQ2MQ",
+      "getMenuEndpoint": "/api/v2/today_dishes.json",
+      "postOrderEndpoint": "/api/v2/orders.json"
+    }
+  },
+  "timeslotId": 2,
+  "addressId": "2488",
+  "constraints": {
+    "global": [
+      {
+        "category": "light"
+      }
+    ],
+    "sun": [
+      {
+        "category": "classic",
+        "calories": {
+          "max": 1500
+        }
+      }
+    ]
+  }
+}
