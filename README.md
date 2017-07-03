@@ -55,6 +55,15 @@ There are two tope level keys that are user specific with Forky specific ids:
 Include modules by using their name as key, and declaring their configData as values.
 There is a global key and then 'mon', tue', 'wed'... keys for specific daily config.
 
+Since the above top level keys ('glob', 'mon', ...) are arrays, you can specify multilpe groups of constraints.
+These groups have an OR relationship, meaning that if the first group fails and the second succeeds, the dish will be selected.
+
+Inside each group you can specify one or more contraints. Inside the group the relationship is AND.
+So all contraints should be true in order for the group to be succeed and the dish to be selected.
+
+The whole mechanism stops once one contraint group succeeds.
+
+
 ```json
   ...
   "constraints": {
